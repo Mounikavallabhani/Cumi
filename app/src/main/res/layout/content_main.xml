@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".activitys.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9.2">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="5dp"
+            android:orientation="vertical">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/f1"
+        android:visibility="visible">
+    </FrameLayout>
+        </LinearLayout>
+         </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal">
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="selfe"
+            android:gravity="center"
+            android:background="#337ab7"
+            android:textColor="#ffffff"
+            android:fontFamily="@font/font1"
+            android:textSize="18dp"
+            android:layout_height="match_parent"
+            android:text="PlayQuiz"/>
+     <Space
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="0.02"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/font1"
+            android:onClick="quez"
+            android:textColor="#ffffff"
+            android:gravity="center"
+            android:background="#337ab7"
+            android:textSize="18dp"
+            android:layout_height="match_parent"
+            android:text="PostSelfie"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:onClick="pole"
+            android:fontFamily="@font/font1"
+            android:background="#337ab7"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="18dp"
+            android:layout_height="match_parent"
+            android:text="OpinionPoll"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.02"/>
+
+    </LinearLayout>
+</LinearLayout>

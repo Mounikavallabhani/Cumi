@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:fontFamily="@font/myriadpro_bold"
+                android:layout_marginTop="15dp"
+                android:textSize="30dp"
+                android:textColor="@color/blue"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Leave A Message"/>
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/indicator_image"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"/>
+
+            <TextView
+                android:fontFamily="@font/myriadpro_bold"
+                android:layout_marginTop="10dp"
+                android:textSize="22dp"
+                android:layout_gravity="center"
+                android:textColor="@color/blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feel Free To Contact Us "/>
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+
+                    android:id="@+id/yourname"
+                    android:fontFamily="@font/font1"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawablePadding="20dp"
+                    android:hint="Yourname*"
+                    android:ems="10"
+                    android:textSize="22dp"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:singleLine="true"
+                    android:inputType="text"
+                    android:textColorHint="#000"
+                    android:background="@drawable/textshape"/>
+                <EditText
+
+                    android:fontFamily="@font/font1"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/phone"
+                    android:drawablePadding="20dp"
+                    android:hint="Phone*"
+                    android:ems="10"
+                    android:textSize="22dp"
+                    android:textColor="#000"
+                    android:maxLength="10"
+
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:inputType="phone"
+                    android:textColorHint="#000"
+                    android:background="@drawable/textshape"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:weightSum="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <EditText
+
+                    android:id="@+id/youremail"
+                    android:fontFamily="@font/font1"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:drawablePadding="20dp"
+                    android:hint="Your email*"
+                    android:ems="10"
+                    android:textSize="22dp"
+                    android:textColor="#000"
+                    android:paddingLeft="10dp"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:singleLine="true"
+                    android:inputType="text"
+                    android:textColorHint="#000"
+                    android:background="@drawable/textshape"/>
+                <EditText
+
+                    android:fontFamily="@font/font1"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                     android:id="@+id/subject"
+                    android:drawablePadding="20dp"
+                    android:hint="Subject"
+                    android:ems="10"
+                    android:textSize="22dp"
+                    android:textColor="#000"
+
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:inputType="text"
+                    android:textColorHint="#000"
+                    android:background="@drawable/textshape"/>
+            </LinearLayout>
+            <EditText
+                android:fontFamily="@font/font1"
+
+                android:id="@+id/message"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/textshape"
+                android:gravity="start"
+                android:hint="Message"
+                android:padding="10dp"
+                android:textColorHint="#000"
+                android:textSize="20dp" />
+            <Button
+                android:textSize="20dp"
+                android:fontFamily="@font/font1"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_gravity="center"
+                android:background="@drawable/loginone"
+                android:ems="15"
+                android:id="@+id/connctdetails"
+                android:layout_marginLeft="60dp"
+                android:layout_marginRight="60dp"
+                android:text=" Submit "
+                android:textAllCaps="false"
+                android:textColor="#fff" />
+
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:visibility="visible"
+                 android:id="@+id/linerimage"
+
+                 android:layout_height="250dp">
+                 <ImageView
+                     android:layout_width="match_parent"
+                     android:layout_height="match_parent"
+                     android:id="@+id/imagemap"
+
+
+                     android:src="@drawable/map512"/>
+
+             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:id="@+id/linearmap"
+                android:visibility="gone"
+                android:layout_height="250dp">
+
+                <!--<include layout="@layout/activity_maps"/>-->
+
+            <!--    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:map="http://schemas.android.com/apk/res-auto"
+                    xmlns:tools="http://schemas.android.com/tools"
+                    android:id="@+id/map"
+                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    tools:context="com.arkainfotechpvt.cumi.activitys"/>-->
+                <WebView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/webviewmaps">
+
+                </WebView>
+
+            </LinearLayout>
+
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<ImageView-->
+
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:src="@drawable/mapchange" />-->
+            <!--</LinearLayout>-->
+
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

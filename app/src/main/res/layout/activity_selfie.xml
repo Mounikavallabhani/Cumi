@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar_layout" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="@dimen/dimen_10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/dimen_10"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="@dimen/dimen_300"
+                android:layout_height="@dimen/dimen_300"
+                android:onClick="setimage"
+                android:background="@drawable/edit_text_bg"
+                android:src="@drawable/placeholder_small" />
+
+            <Button
+                android:id="@+id/upload_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dimen_40"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/dimen_10"
+                android:background="@drawable/loginone"
+                android:text="@string/upload"
+                android:onClick="camera"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+        <include layout="@layout/progress_layout" />
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

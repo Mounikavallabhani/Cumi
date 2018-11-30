@@ -1,0 +1,184 @@
+<resources>
+    <string name="app_name">Cumi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">CuFest-2018</string>
+    <string name="nav_header_subtitle">rajeshnb@cumi.murugappa.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="email_id">Email Id</string>
+
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="already_have_an_account">Already have an account? <u>Login</u></string>
+    <string name="do_not_have_an_account">Don\'t have an account? <u>SignUp</u></string>
+
+    <string name="error_email_required">Enter Valid Email Id</string>
+    <string name="error_password_required">Enter Password</string>
+    <string name="error_firstname_required">Enter FirstName</string>
+    <string name="error_lastname_required">Enter LastName</string>
+    <string name="error_password_compare">Confirm password doesn\'t match</string>
+    <string name="error_mobile_required">Enter Valid Number</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="cancel">Cancel</string>
+    <string name="forgot_password_text">Forgot Password</string>
+    <string name="quiz">Quiz</string>
+    <string name="quiz_text">Question will appear with various options. Please select your answer and press submit button. Prizes will be given to the right answer fastest finger (who answers first) during the conference immediately.</string>
+    <string name="play_quiz">Play Quiz</string>
+    <string name="take_selfie">Post Selfie</string>
+    <string name="post_a_selfie">Post A Selfie</string>
+    <string name="selfie_text">Start uploading selfies which are crazy and with friends. Best judged selfie (which is crazy and with friends) will get an award during the conference…..Start uploading.</string>
+    <string name="selfie">Selfie</string>
+    <string name="write_review">Write Your Review Here....</string>
+    <string name="upload">Upload</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="empl_id">Employee ID</string>
+    <string name="error_empl_required">Enter Employee ID</string>
+    <string name="pick_image_intent_text">Choose an image</string>
+
+    <string name="givenname">Name</string>
+    <string name="surname">Name</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="empid">Emp ID</string>
+    <string name="designation">Designation</string>
+    <string name="mailid">Mail ID</string>
+    <string name="headquater">Head Quarter</string>
+    <string name="bloodgroup">Blood Group</string>
+    <string name="icename">Name</string>
+    <string name="mnumber">Mobile Number</string>
+    <string name="relationship">Relationship</string>
+    <string name="paddress">Present Address</string>
+    <string name="ptnumber">Present Res-Telephone Number</string>
+    <string name="food1">Food Preference</string>
+    <string name="food2">Name</string>
+    <string name="hot">Beverages (Hot)</string>
+    <string name="cold">Beverages (Soft Drinks)</string>
+    <string name="spirits">Beverages (Spirits)</string>
+    <string name="foodd">Name</string>
+    <string name="foodl">Name</string>
+    <string name="tshirt">T-Shirt Size</string>
+    <string name="nominename">Nominee Name</string>
+    <string name="nominerelation">Nominee Relationship</string>
+    <string name="passportname">Name</string>
+    <string name="passportnumber">Passport Number</string>
+    <string name="passportdate">Passport Expire Date</string>
+    <string name="aadharnumber">Name</string>
+    <string name="allergy">Allergy Details</string>
+    <string name="flightfood">Flight Food Details</string>
+    <string name="no_internet">No Internet Connection</string>
+    <string name="personal_details">Personal Details :</string>
+    <string name="ice">ICE (In case of Emergency) :</string>
+    <string name="address">Address :</string>
+    <string name="food">Food :</string>
+    <string name="shirt_size">Shirt Size :</string>
+    <string name="nominee">Nominee :</string>
+    <string name="passport">Passport :</string>
+    <string name="health">Health</string>
+    <string name="flight_food">Flight Food :</string>
+
+    <string-array name="food_pref">
+        <item>@string/food1</item>
+        <item>Veg</item>
+        <item>Non-Veg</item>
+
+    </string-array>
+
+    <string-array name="bevrages_hot">
+        <item>@string/hot</item>
+        <item>Tea</item>
+        <item>Coffee</item>
+        <item>Milk</item>
+
+    </string-array>
+    <string-array name="bevrages_soft_drinks">
+        <item>@string/cold</item>
+        <item>Fresh Juice</item>
+        <item>Canned Juice</item>
+        <item>Lemon Soda</item>
+        <item>Pepsi/Coke</item>
+    </string-array>
+    <string-array name="bevrages_soft_spirits">
+        <item>@string/spirits</item>
+        <item>Whisky</item>
+        <item>Vodka</item>
+        <item>White Wine</item>
+        <item>Red Wine</item>
+        <item>Beer</item>
+    </string-array>
+
+    <string-array name="tshrt_size">
+        <item>@string/tshirt</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+        <item>XXXL</item>
+    </string-array>
+
+    <string-array name="flight_food">
+        <item>@string/flight_food</item>
+        <item>Veg</item>
+        <item>Non Veg</item>
+        <item>Vegetarian Jain Food</item>
+        <item>Fruit Platter Meal</item>
+        <item>Hindu Meal</item>
+        <item>Diabetic Meal</item>
+    </string-array>
+
+
+    <string name="text_text1">
+         Armenian and Portuguese traders were living in the San Thome area of what is now present-day Chennai before the arrival of the British in 1639.
+         Madras was the shortened name of the fishing village Madraspatnam, where the British East India Company built a fort and factory (trading post) in 1639–40.
+        At that time, the weaving of cotton fabrics was a local industry, and the English invited the weavers and native merchants to settle near the fort. By 1652 the factory of Fort St.
+        George was recognized as a presidency (an administrative unit governed by a president), and between 1668 and 1749 the company expanded its control. About 1801, by which time the last of the local rulers had been shorn of his powers, the English had become masters of southern India, and Madras had become their administrative and commercial capital.
+        The government of Tamil Nadu officially changed the name of the city to Chennai in 1996.
+    </string>
+
+    <string name="text_text2">
+        Chennai is a city in the state of Tamil Nadu, located in the region of India.
+        If traveling to this city is what you are thinking about, then Cleartrip will guide you.
+        Traveling to Chennai is easy thanks to the railway connectivity.
+        Book your railway tickets conveniently with just a few taps on the Cleartrip app or website.
+
+The station of the city is named as CHENNAI CENTRAL and its station code is MAS. The station takes care of all the basic amenities of the passengers.
+
+The station is well-connected to a number of Indian cities. Some of the major routes include to the places of Vijayawada Jn, New Delhi, and Howrah Jn. There are 3 weekly trains connecting Vijayawada Jn to Chennai, 2 weekly trains connecting New Delhi to Chennai, and 4 weekly trains connecting Howrah Jn to Chennai.
+
+    </string>
+    <string name="text3">
+        Just 45 minutes out of the city, the East Coast Road first stops at the historic town of Mahabalipuram. The 7th century erstwhile port city is famous for its rock-cut shore temples. A lone lighthouse on a hill watches over a group of temples below. Mahabalipuram also has some great cafes that serve good sea food. A backpacker’s delight, one can find cheap accommodations and plenty of activities.
+Want to enjoy the beach atmosphere but can’t get to the west coast of India
+    </string>
+    <string name="text4">
+    Marina Beach of Chennai is a popular destination. Marina Beach is one of the longest urban beaches in the world. Stretched along the Coromandel Coast of the Bay of Bengal for about 12 km, Marina Beach is bordered by St. George Fort in the North and Besant Nagar in the South.Marina Beach is a popular picnic spot since the 1880s. Famous for its long stretch of silver sands and blue sea, Marina Beach provides a clear view of sunrise and sunset. The side drive of the beach is fringed by palms and casuarinas which provide shade. The lighthouse, situated at the southern end of the beach, provides panoramic views of the city of Chennai.
+
+Marina Beach has become a centre for activities like wind surfing, fishing, sun bathing, kit flying and beach volley ball. But the strong current of water makes Marina Beach unsuitable for swimming.
+
+
+</string>
+    <string name="adress">
+        Carborundum Universal Limited - Registered Office "Parry House" 6th Floor, 43, Moore Street,
+    </string>
+    <string name="title_activity_maps">Map</string>
+</resources>

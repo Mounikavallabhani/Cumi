@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activitys.About">
+ <!--   <WebView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       />
+-->
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="About"
+           android:textColor="@color/blue"
+          android:fontFamily="@font/myriadpro_bold"
+          android:gravity="center"
+          android:textSize="30dp"
+          android:textStyle="bold|normal"/>
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="Cufest"
+              android:layout_marginLeft="20dp"
+              android:textColor="#f67697e2"
+              android:layout_marginRight="20dp"
+              android:gravity="left|center"
+              android:textSize="20dp"
+              android:fontFamily="@font/font1"
+              android:textStyle="bold|normal"/>
+
+          <ImageView
+              android:layout_width="match_parent"
+              android:scaleType="fitXY"
+              android:layout_marginTop="3dp"
+              android:layout_height="wrap_content"
+              android:src="@drawable/aboutlogo"/>
+          <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+           android:textColor="@color/textcolor"
+          android:layout_marginRight="15dp"
+              android:layout_marginTop="3dp"
+              android:fontFamily="@font/agaramondpro_bold"
+              android:layout_marginLeft="15dp"
+              android:lineSpacingExtra="6dp"
+
+          android:text="CUMI with a focus on Total Employee Involvementand superior customer satisfaction, embarked on a journey of Total Quality Management during 1996. Formal launch of TQM across all the plants was made and the company started adopting CII – EXIM bank Model of Business Excellence. Basic Shopfloor excellence practices like adopting 5 S, Waste elimination, Kaizen and group activities started taking deep roots across CUMI locations. Few of the CUMI locations won CII – EXIM Business Excellence awards too. In order to sustain the interest, CUMI started conducting Annual Quality Festival called CUFEST during 1999. The first ever CUFEST was conducted on 5th June 1996 at Anna University, Chennai. Every year we celebrate and showcase the advancements and various contributions made by employees to the businesses. This is a forum to recognize the employees who have impacted the quality journey of CUMI.The evaluation process for this is spread over for more than a month with a team of judges travelling across all CUMI Plant locations for the preliminary assessment of various TEI processes and shop floor 5S. The shortlisted projects on Suggestion, Small group Activity (Quality Circle), Kaizen, Cross functional Team, Best practices, Innovation will be competing further on CUFEST day and the best performers will be awarded.
+  This is a tradition that is going on, unbroken for the last 19 years.Every year we celebrate it at different parts of India to benchmark and improve our quality processes. This year we have the CUFEST 2018 at Chennai on the 24th November. There will be around 400 participants from all over CUMI to witness and compete 13 categories of events in this prestigious program. Come, Witness the zeal and enthusiasm for CUMIites during this November!"
+          android:gravity="center"
+          android:textSize="15dp"
+          />
+      </LinearLayout>
+</ScrollView>

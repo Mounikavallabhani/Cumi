@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+        <include layout="@layout/toolbar_layout"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                        <!--ome-->
+                        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:layout_width="match_parent"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_height="90dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="5"
+                                    android:id="@+id/contaent_liner"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                        <TextView
+                                            android:textColor="@color/blue"
+                                            android:fontFamily="@font/font1"
+                                            android:layout_width="0dp"
+                                            android:layout_weight="3"
+                                            android:layout_height="match_parent"
+                                            android:text="ABRASIVES -UTK"
+                                            android:gravity="center"
+                                            android:id="@+id/titletext"
+                                            android:textSize="18dp"/>
+                                </LinearLayout>1
+                        </android.support.v7.widget.CardView>
+
+
+
+                        <!--ome-->
+                        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:layout_width="match_parent"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_height="90dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="5"
+                                    android:id="@+id/contaent_liner1"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                        <TextView
+                                            android:textColor="@color/blue"
+                                            android:fontFamily="@font/font1"
+                                            android:layout_width="0dp"
+                                            android:layout_weight="3"
+                                            android:layout_height="match_parent"
+                                            android:text="INDUSTRIAL CERAMICS - HOSUR"
+                                            android:gravity="center"
+                                            android:id="@+id/titletext1"
+                                            android:textSize="18dp"/>
+                                </LinearLayout>1
+                        </android.support.v7.widget.CardView>
+
+
+
+                        <!--two-->
+                        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:layout_width="match_parent"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_height="90dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="5"
+                                    android:id="@+id/contaent_liner2"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                        <TextView
+                                            android:textColor="@color/blue"
+                                            android:fontFamily="@font/font1"
+                                            android:layout_width="0dp"
+                                            android:layout_weight="3"
+                                            android:layout_height="match_parent"
+                                            android:text="HSR BONDED"
+                                            android:gravity="center"
+                                            android:id="@+id/titletext2"
+                                            android:textSize="18dp"/>
+                                </LinearLayout>1
+                        </android.support.v7.widget.CardView>
+
+
+                        <!--two-->
+
+                        <!--three-->
+
+                        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:layout_width="match_parent"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_height="90dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="5"
+                                    android:id="@+id/contaent_liner3"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/titletext3"
+                                            android:layout_width="0dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_weight="3"
+                                            android:fontFamily="@font/font1"
+                                            android:gravity="center"
+                                            android:text="WENDT"
+                                            android:textColor="@color/blue"
+                                            android:textSize="18dp" />
+                                </LinearLayout>1
+                        </android.support.v7.widget.CardView>
+
+                        <!--three-->
+
+                        <!--four-->
+                        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:layout_width="match_parent"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_height="90dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="5"
+                                    android:id="@+id/contaent_liner4"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                        <TextView
+                                            android:textColor="@color/blue"
+                                            android:fontFamily="@font/font1"
+                                            android:layout_width="0dp"
+                                            android:layout_weight="3"
+                                            android:layout_height="match_parent"
+                                            android:text="EMD"
+                                            android:gravity="center"
+                                            android:id="@+id/titletext4"
+                                            android:textSize="18dp"/>
+                                </LinearLayout>1
+                        </android.support.v7.widget.CardView>
+
+
+                        <!--four-->
+
+
+                        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:layout_width="match_parent"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_height="90dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="5"
+                                    android:id="@+id/contaent_liner5"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                        <TextView
+                                            android:textColor="@color/blue"
+                                            android:fontFamily="@font/font1"
+                                            android:layout_width="0dp"
+                                            android:layout_weight="3"
+                                            android:layout_height="match_parent"
+                                            android:text="SEDCO"
+                                            android:gravity="center"
+                                            android:id="@+id/titletext5"
+                                            android:textSize="18dp"/>
+                                </LinearLayout>1
+                        </android.support.v7.widget.CardView>
+
+
+                        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                            xmlns:tools="http://schemas.android.com/tools"
+                            android:layout_width="match_parent"
+                            xmlns:app="http://schemas.android.com/apk/res-auto"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="5dp"
+                            app:cardCornerRadius="5dp"
+                            android:layout_height="90dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:weightSum="5"
+                                    android:id="@+id/contaent_liner6"
+                                    android:gravity="center"
+                                    android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="0dp"
+                                            android:layout_weight="3"
+                                            android:layout_height="match_parent"
+                                            android:text="SR - PD"
+                                            android:fontFamily="@font/font1"
+                                           android:textColor="@color/blue"
+                                            android:gravity="center|center_horizontal"
+                                            android:id="@+id/titletext6"
+                                            android:textSize="18dp"/>
+                                </LinearLayout>1
+                        </android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+                </LinearLayout>
+
+        </ScrollView>
+</LinearLayout>

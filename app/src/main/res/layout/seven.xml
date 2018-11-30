@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical">
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webview">
+
+    </WebView>
+
+    <!--
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="200dp"
+        android:layout_weight="10">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8.30AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Innagural Session"/>
+
+            </LinearLayout>
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="8.50AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome Address"/>
+
+            </LinearLayout>
+
+
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.05AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Theme movie Launch"/>
+
+            </LinearLayout>
+
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.10AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address bymanaging director"/>
+
+            </LinearLayout>
+
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.40AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction of judges"/>
+
+            </LinearLayout>
+
+
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9.45AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="19dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SGA1"/>
+
+            </LinearLayout>
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.00AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SGA2"/>
+
+            </LinearLayout>
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.15AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SGA3"/>
+
+            </LinearLayout>
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.30AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SGA4"/>
+
+            </LinearLayout>
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="10.45AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SGA5"/>
+
+            </LinearLayout>
+            <ImageView
+
+                android:layout_gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_marginRight="70dp"
+                android:src="@drawable/line" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="11.00AM"/>
+                <LinearLayout
+                    android:background="@drawable/textshape"
+                    android:layout_marginLeft="9dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_width="40dp"
+                    android:layout_height="30dp">
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/uparrow16"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SGA6"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+   </ScrollView>
+
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+-->
+
+</LinearLayout>

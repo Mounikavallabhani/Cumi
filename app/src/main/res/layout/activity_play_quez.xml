@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <include layout="@layout/toolbar_layout"/>
+    <!--<android.support.v7.widget.Toolbar-->
+    <!--android:id="@+id/toolbarcredits"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"-->
+    <!--android:background="#00283a"-->
+    <!--android:gravity="top"-->
+    <!--android:minHeight="50dp"-->
+    <!--app:theme="@style/ToolbarStyle"-->
+    <!--app:titleMarginTop="@dimen/margin_to_center"-->
+    <!--&gt;-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Mansopresk"-->
+    <!--android:textColor="#fff"-->
+    <!--android:textSize="15dp"-->
+    <!--android:textStyle="bold"/></android.support.v7.widget.Toolbar>-->
+
+    <android.support.v7.widget.CardView
+
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#cbfc9a"
+        card_view:cardCornerRadius="10dp"
+        card_view:cardElevation="5dp"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_margin="30dp">
+
+
+            <TextView
+
+                android:fontFamily="@font/font1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:text="Play Quiz"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:orientation="vertical">
+            <TextView
+
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/font1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:id="@+id/q1"
+               />
+            <RadioGroup
+                android:layout_marginTop="15dp"
+                android:id="@+id/mehhirerg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#000"
+                    android:id="@+id/q2"
+                    android:clickable="true"
+                    android:paddingLeft="15dp"
+
+                    android:textColor="#000" />
+                <RadioButton
+
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#000"
+                    android:id="@+id/q3"
+                    android:clickable="true"
+                    android:paddingLeft="15dp"
+
+                    android:textColor="#000" />
+                <RadioButton
+
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#000"
+                    android:clickable="true"
+                    android:id="@+id/q4"
+                    android:paddingLeft="15dp"
+
+                    android:textColor="#000" />
+                <RadioButton
+
+                    android:textSize="20dp"
+                    android:fontFamily="@font/font1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="#000"
+                    android:clickable="true"
+                    android:id="@+id/q5"
+                    android:paddingLeft="15dp"
+
+                    android:textColor="#000" />
+            </RadioGroup>
+            <EditText
+                android:layout_marginTop="15dp"
+                android:fontFamily="@font/font1"
+                android:id="@+id/carpenter"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="30dp"
+                android:background="@drawable/textshape"
+                android:gravity="center"
+                android:hint="Write your review here....."
+                android:padding="10dp"
+                android:textColorHint="#b4acac"
+                android:textSize="16dp" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+            <Button
+                android:id="@+id/quizsubmit"
+                android:layout_marginTop="5dp"
+                android:textSize="20sp"
+                android:fontFamily="@font/font1"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:background="@drawable/loginone"
+                android:text=" Submit"
+                android:textAllCaps="false"
+                android:textColor="#fff"
+                android:layout_marginBottom="10dp"/>
+                </LinearLayout>
+                <Chronometer
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/chronometer"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/card_view12"
+            android:visibility="gone"
+
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/coming_soon"/>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+</LinearLayout>
